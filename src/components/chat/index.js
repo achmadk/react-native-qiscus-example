@@ -86,7 +86,7 @@ export default class ChatBody extends PureComponent {
       );
     } else {
       return (
-        <View style={styles.container}>
+        <View>
           <TouchableOpacity style={{marginLeft: 30, marginBottom: 10, marginTop: 0, justifyContent: 'center', alignItems: 'center', height: 40, width: 80, borderWidth: 1, borderColor: '#333131'}} onPress={() => this.setState({selectedRoom: null})}>
             <Text>Back</Text>
           </TouchableOpacity>
